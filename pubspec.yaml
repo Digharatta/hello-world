@@ -1,0 +1,22 @@
+name: cardiac_coherence
+description: Cardiac coherence measurement via smartphone camera PPG
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.11.0+2
+  permission_handler: ^11.3.0
+  fl_chart: ^0.68.0
+  wakelock_plus: ^1.2.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
